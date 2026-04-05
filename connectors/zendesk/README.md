@@ -44,7 +44,7 @@ Find the `"Zendesk"` entry and change:
     "/Users/harry/development/rebel-mcps/connectors/zendesk/dist/server.cjs"
   ],
   "env": {
-    "NODE_PATH": "/Users/harry/development/rebel-mcps/connectors/zendesk/dist/node_modules",
+    "NODE_PATH": "/Users/harry/development/rebel-mcps/connectors/zendesk/node_modules",
     "ZENDESK_CONFIG_PATH": "/Users/harry/Library/Application Support/mindstone-rebel/mcp/zendesk",
     "MINDSTONE_REBEL_BRIDGE_STATE": "/Users/harry/Library/Application Support/mindstone-rebel/mcp/rebel-inbox-bridge.json",
     "LOG_MODE": "strict"
