@@ -1,0 +1,17 @@
+{
+  "name": "random-letter-mcp",
+  "version": "1.0.0",
+  "description": "A tiny local MCP server that returns a random uppercase letter.",
+  "type": "commonjs",
+  "bin": {
+    "random-letter-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.js dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT"
+}
