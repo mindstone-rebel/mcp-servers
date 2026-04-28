@@ -1,0 +1,19 @@
+{
+  "name": "random-paste-shape-generator-mcp",
+  "version": "1.0.0",
+  "description": "A tiny local MCP server that returns a random paste-ready shape.",
+  "type": "commonjs",
+  "bin": {
+    "random-paste-shape-generator-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.js dist/index.js",
+    "start": "node dist/index.js",
+    "test": "npm run build && node test/smoke.test.mjs"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "license": "MIT"
+}
